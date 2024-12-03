@@ -1,0 +1,163 @@
+/* styles.css */
+body {
+    background-color: #34495e; /* Background gelap untuk kontras dengan teks putih */
+    color: #34495e;
+    font-family: Arial, sans-serif;
+}
+
+h1.display-4 {
+    color: rgb(7, 7, 7);
+    margin-top: -30px; /* Sesuaikan dengan kebutuhan */
+    margin-bottom: 20px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.jumbotron{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgba(249, 245, 246, 0.662);
+}
+p {
+    color:rgb(0, 0, 0);
+    margin-bottom: 10px; /* Jarak antar paragraf */
+}
+
+.btn-primary {
+    width: 80px;
+    background-color: #000000;
+    border-color: #000000;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #060606;
+    border-color: #004085;
+}
+
+.fas.fa-arrow-left {
+    margin-right: 5px;
+}
+
+/* Tambahan gaya untuk container */
+.container {
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+/* styles.css */
+
+/* Container untuk memusatkan konten */
+.container {
+    max-width: 800px; /* Menentukan lebar maksimum container */
+    margin: 0 auto;   /* Memusatkan container di tengah */
+    padding: 20px;
+}
+
+/* Memusatkan teks di dalam container */
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Memusatkan elemen di dalam row secara horizontal */
+}
+
+/* Style tambahan untuk button */
+.btn-primary {
+    width: 80px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.fas.fa-arrow-left {
+    margin-right: 5px;
+}
+/* styles.css */
+
+/* Default styles for larger screens */
+body {
+    background-color: #343a40;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    width: 80px;
+    background-color: #717171;
+    border-color: #000000;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.fas.fa-arrow-left {
+    margin-right: 5px;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .btn-primary {
+        width: 100px; /* Menyesuaikan lebar tombol untuk tampilan lebih kecil */
+    }
+
+    h1.display-4 {
+        font-size: 1.5rem; /* Mengurangi ukuran font untuk tampilan lebih kecil */
+    }
+    .step{
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+}
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 576px) {
+    .container {
+        padding: 5px;
+    }
+
+    .btn-primary {
+        width: 120px; 
+    }.step{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+}

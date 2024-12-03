@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color: darkgray;
+}
+
+.content {
+    margin: 4%;
+    padding: 30px 10px; /* Padding yang disesuaikan */
+    background-color: lightblue;
+    width: calc(100% - 8%); /* Mengatur lebar untuk memperhitungkan margin */
+    height: calc(100% - 8%); /* Mengatur tinggi untuk memperhitungkan margin */
+    border-radius: 12px;
+    box-sizing: border-box; /* Memastikan padding dan border tidak mempengaruhi ukuran */
+}
+
+.logo {
+    font-family: 'Viga', sans-serif;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    text-align: left;
+    margin-left: -15px;
+}
+
+.lead {
+    font-size: 13px;
+    cursor: default;
+}
+
+.signin-text {
+    font-style: normal;
+    font-weight: 600 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #00ac96 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-signin {
+    border-color: rgb(9, 9, 10);
+    color: rgb(99, 154, 249);
+    width: 100%;
+}
+
+.btn-signin:hover {
+    background-color: rgb(9, 65, 247);
+    color: #fff;
+}
+
+.btn-signup {
+    border-color: #f14b83;
+    color: #f14b83;
+    width: 100%;
+}
+
+.btn-signup:hover {
+    background-color: #e80808;
+    color: #ffffff;
+}
+
